@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background: hsl(216, 12%, 8%);
+}
+.card{
+  width: 330px;
+  margin: 30vh auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: hsl(213, 19%, 18%);
+}
+.card .rating{
+
+}
+.card .bold-text{
+  font-size: 23px;
+  margin: 10px 0;
+  color:hsl(0, 0%, 100%);
+}
+.card .sub-text{
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin: 10px 0;
+  color: hsl(216, 12%, 54%);
+}
+.card .numbers{
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+  /* background: White; */
+  margin: 30px 0;
+  color: hsl(216, 12%, 54%);
+  /* background: hsl(213, 19%, 14%); */
+}
+.number{
+  border-radius: 6rem;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  /* padding: 10px; */
+  /* margin: 0 20px; */
+  background: hsl(213, 19%, 14%);
+  text-align: center;
+}
+.number:hover{
+  cursor: pointer;
+  background:hsl(25, 97%, 53%);
+  color: white;
+}
+/* selected rating button class */
+.selected{
+  color: white;
+  background: hsl(216, 12%, 54%);
+}
+.card .rating .star img{
+  border-radius: 50%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background: hsl(213, 19%, 14%);
+}
+
+button{
+  width: 100%;
+  padding: 10px;
+  background: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  font-size: 23px;
+}
+button:hover{
+  cursor: pointer;
+  background: white;
+  color: hsl(25, 97%, 53%);
+}
+.thank-you{
+  display: none;
+}
